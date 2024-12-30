@@ -26,10 +26,10 @@ git clone <url_del_repositorio>
 ### 2.1. Instalar dependencias del backend
 Dirígete al directorio del backend y ejecuta el siguiente comando para instalar las dependencias:
 
-bash
-Copiar código
+```bash
 cd backend
 npm install
+```
 
 ### 2.2. Configurar las variables de entorno
 Crea un archivo .env en la raíz del directorio del backend y agrega las siguientes variables de entorno:
@@ -44,19 +44,19 @@ MONGO_URL: La URL de conexión a la base de datos MongoDB (reemplaza con tu prop
 ### 2.3. Ejecutar el backend
 Ejecuta el servidor backend con:
 
-bash
-Copiar código
+```bash
 npm start
+```
 
 ### 3. Configuración del Frontend
 
 ### 3.1. Instalar dependencias del frontend
 Dirígete al directorio del frontend y ejecuta el siguiente comando para instalar las dependencias:
 
-bash
-Copiar código
+``` bash
 cd frontend
 npm install
+```
 
 ### 3.2. Configurar las variables de entorno
 Crea un archivo .env en la raíz del directorio del frontend y agrega la siguiente variable de entorno:
@@ -69,10 +69,10 @@ VITE_BACKEND_URL: La URL base del backend. Si el backend está corriendo localme
 ### 3.3. Ejecutar el frontend
 Para iniciar el frontend, ejecuta el siguiente comando:
 
-bash
-Copiar código
+``` bash
 npm run dev
 Esto abrirá la aplicación frontend en tu navegador en http://localhost:5173.
+```
 
 ### Detalles de configuración
 Variables de entorno:
